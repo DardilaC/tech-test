@@ -1,0 +1,482 @@
+/*Navigation Menu*/
+.navbar-default{
+    display: block;
+}
+/*
+.filler{
+    flex-grow: 2;
+}
+*/
+.navbar-nav > li {
+	float: none;
+	vertical-align: middle;
+}
+#site-logo {
+	position: relative;
+	vertical-align: middle;
+	bottom: -18px;
+}
+#site-logo a {
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -35px;
+}
+li {
+	list-style-type: none;
+}
+.nav.navbar-nav{
+	display: inline-flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.nav {
+	text-align: center;
+}
+.hidden-xs .img-responsive{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav li {
+	width: 20%;
+	height: 50px;
+}
+.nav a {
+	color: #000000;
+	text-decoration: none;
+	font-family: "Roboto", "regular";
+	font-size: 12px;
+}
+
+
+/*Image with Logos*/
+.jumbotron{
+	position: relative;
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../img/food.jpg);
+	background-position: 50% 25%;
+}
+.jumbotron h2{
+	text-align: center;
+	max-height: 100%;
+	color: #ffffff;
+	font-family: "Montserrat", "regular";
+	font-weight: bold;
+    letter-spacing: 0.2em;
+}
+.jumbotron img{
+	margin: 0 0 0 0;
+	max-width: 100%;
+}
+.jumbotron .container{
+	position: absolute;
+	width: 100%;
+	top: 33%;
+}
+#market{
+}
+
+#android{
+	position: absolute;
+	max-width: 150px;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(-100%);
+}
+
+#apple{
+	position: absolute;
+	max-width: 150px;
+	bottom: 5%;
+	left: 50%;
+	transform: translate(25%);
+}
+
+/*People*/
+#personas{
+	margin-top: 5%;
+}
+
+#personas h3{
+	text-align: center;
+	color: #000000;
+	font-family: "Montserrat", "semibold";
+	
+}
+#videos .container{
+    margin-bottom: 5%;
+}
+
+.container .row{
+	padding-top: 3%;
+}
+
+.container .row .caption p{
+	text-align: center;
+	color: #000000;
+	font-family: "Roboto", "regular";
+	font-weight: bold;
+	font-size: 18;
+}
+.thumbnail{
+	border: 0 none;
+}
+
+.thumbnail img{
+	min-height: 215px;
+	width: 100%;
+}
+
+/*Videos*/
+#videos{
+	margin-top: 155px;
+}
+#videos h3{
+	margin-bottom: 50px;
+	text-align: center;
+	color: #000000;
+	font-family: "Montserrat", "semibold";
+}
+
+.boton{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px 5%;
+	color: #db9600;
+	background-color: #ffffff;
+	font-family: "Roboto";
+    font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+    border: solid 5px #db9600;
+	border-radius: 10px;
+}
+
+#titulo p{
+	position: relative;
+	padding-top: 100px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Montserrat Regular";
+	font-size: 3em;
+	text-align: center;
+}
+
+
+/*--------------------------------------------*/
+/*Acerca de*/
+#imagen_acerca{
+	padding: 0;
+	text-align: center;
+}
+#imagen_acerca img{
+	margin-top: 50px;
+	padding: 0px 0px;
+    max-width: 50%;
+	vertical-align: middle;
+}
+#informacion_acerca{
+	margin-top: 75px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 775px;
+	padding-bottom: 50px;
+	
+}
+#informacion_acerca p{
+	padding: 50px 0px;
+	font-family: "Roboto Regular";
+	font-size: 1.75em;
+	margin-bottom: 50px;
+}
+#informacion_acerca a{
+	font-family: "Montserrat Regular";
+	font-size: 1em;
+	font-weight: bold;
+}
+/*--------------------------------------------*/
+/*Registro*/
+/*Tabla*/
+#entrada_registro{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#registro{
+	text-align: center;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 600px;
+	padding-bottom: 50px;
+	background-color: #fef271;
+	border-radius: 10px;
+}
+.form-group h2{
+	padding-top: 90px;
+	padding-bottom: 10px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Roboto Light";
+	font-size: 2.2em;
+	text-align: center;
+}
+.form-group h3{
+	color: #000000;
+	text-decoration: none;
+	font-family: "Montserrat Light";
+	font-size: 1.8em;
+	text-align: left;
+}
+.form-group .input{
+	vertical-align: middle;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Montserrat Regular";
+	font-size: 1em;
+}
+#input-text{
+    padding: 5% 5% 5% 5%;
+	color: #aaaaaa;
+	text-decoration: none;
+	font-family: "Montserrat Regular";
+	font-size: 1.2em;
+}
+.mes{
+	width: 45%;
+	padding: 15px 0px 15px 10px;
+}
+.dia{
+	width: 25%;
+	padding: 15px 0px 15px 10px;
+}
+.año{
+	margin: 10% 0% 10% 0%;
+	width: 25%;
+	padding: 15px 0px 15px 10px;
+}
+label{
+	vertical-align: middle;
+	display: inline-block;
+	margin: 0% 0% 10% 0%;
+	color: #000000;
+	font-family: "Montserrat Light";
+	font-size: 1.4em;
+	text-align: middle;
+}
+.boton_registro{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px 5%;
+	color: #ffffff;
+	background-color: #db9600;
+	font-family: "Montserrat Medium";
+	font-size: 2em;
+	text-align: center;
+	border-radius: 10px;
+}
+/*--------------------------------------------*/
+/*Soporte*/
+#preguntas{
+	position: relative;
+	padding-top: 100px;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Montserrat SemiBold";
+	font-size: 2em;
+	text-align: center;
+}
+/*Informacion*/
+#informacion{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 660px;
+	padding-bottom: 50px;
+}
+#informacion ul {
+	list-style-type: none; /* no default bullets */
+}
+#informacion li { 
+	font-family: Montserrat Regular;
+	font-size: 1.5em;
+	padding: 0px 20px 30px 0px;
+}
+#informacion li:before { /* the custom styled bullets */
+	content: "";
+	margin-right: 20px;
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-color: #db9600;
+	border-radius: 50%;
+}
+/*--------------------------------------------*/
+/*Contacto*/
+#contacto{
+	text-align: center;
+	margin-top: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 980px;
+	padding-bottom: 25px;
+	background-color: #fef271;
+	border-radius: 10px;
+}
+#contacto .form-group h2{
+	text-align:left;
+    padding-left: 10%;
+	padding-top: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Roboto Light";
+	font-size: 2em;
+	
+}
+#input-text{
+    padding: 5% 5% 5% 5%;
+	color: #aaaaaa;
+	text-decoration: none;
+	font-family: "Montserrat Regular";
+	font-size: 1.8em;
+}
+textarea{
+    width: 100%;
+	color: #000000;
+	text-decoration: none;
+	font-family: "Montserrat Regular";
+	font-size: 18;
+	resize: none;
+}
+/*--------------------------------------------*/
+
+
+/*Footer*/
+#footer{
+	margin-top: 100px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #db9600;
+}
+#lista{
+    margin-top: 30px;
+}
+#lista h4{
+	color: #000000;
+	font-family: "Roboto", "regular";
+	font-weight: bold;
+	display: block;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+#footer .container{
+	width: 100%;
+	padding-bottom: 40px;
+}
+#footer h1{
+	text-align: center;
+	color: #fff;
+	font-family: "Montserrat", "semibold";
+	font-weight: bold;
+	font-size:3em;
+}
+#iconos li{
+	margin-top: 5%;
+	width: 25%;
+}
+#iconos li a {
+	float: left;
+	text-align: center;
+}
+#iconos img{
+	width: 50%;
+}
+#icono img{
+    margin-top: 30px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#marcas{
+    margin-top: -9.3333333%;
+    padding-top: 0;
+}
+#marcas img{
+    max-width: 40%;
+    margin: 10px;
+}
+
+
+@media (max-width: 767px){
+    .navbar-nav li a {
+		line-height: 30px;
+	}
+	.nav li{
+		width: 100%;
+	}
+	.nav a {
+		color: #000000;
+		background-color: #db9600;
+		text-decoration: none;
+		font-family: "Roboto", "regular";
+		text-align: center;
+	}
+    
+	.thumbnail img{
+		min-height: 100px;
+		width: 100%;
+	}
+    
+    #android{
+        max-width: 100px;
+        transform: translate(-110%);
+    }
+
+    #apple{
+        max-width: 100px;
+        transform: translate(0%);
+    }
+    
+	#footer{
+		padding: 1% 0px 0px 0px;
+	}
+	#footer h1{
+		text-align: center;
+	}
+	#iconos{
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #db9600;
+	}
+	#iconos li{
+		float: right;
+		transform: translate(-50%);
+		max-width: 25%;
+	}	
+	#iconos li a {
+		text-align: center;
+		text-decoration: none;
+	}
+    
+    #icono img{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 75px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #marcas{
+        text-align: center;
+        margin-top: -5.3333333%;
+        padding-top: 0;
+    }
+        #marcas img{
+        max-width: 15.76666666%;
+    }
+}
