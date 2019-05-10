@@ -51,26 +51,24 @@ li {
 
 /*Footer*/
 #footer{
-	margin-top: 100px;
-	padding: 0;
+	margin-top: 5%;
 	overflow: hidden;
 	background-color: #db9600;
 }
 #lista{
-    margin-top: 30px;
+    margin-top: 3%;
 }
 #lista h4{
 	color: #000000;
 	font-family: "Roboto", "regular";
 	font-weight: bold;
 	display: block;
-    margin-top: 2%;
-    margin-bottom: 4%;
 }
 #footer .container{
 	width: 100%;
 	padding-bottom: 40px;
 }
+/*
 #footer h1{
 	text-align: center;
 	color: #fff;
@@ -78,30 +76,24 @@ li {
 	font-weight: bold;
 	font-size:3em;
 }
-#iconos li{
-	margin-top: 5%;
-	width: 25%;
-}
-#iconos li a {
-	float: left;
-	text-align: center;
-}
-#iconos img{
-	width: 50%;
-}
+*/
 #icono img{
     margin-top: 30px;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
 }
-#marcas{
-    margin-top: -9.3333333%;
-    padding-top: 0;
+#iconos img{
+	width: 75%;
 }
-#marcas img{
-    max-width: 40%;
-    margin: 10px;
+#iconos li{
+    margin-top: 10%;
+    margin-bottom: 10%;
+	width: 25%;
+}
+#iconos li a {
+	float: left;
+	text-align: center;
 }
 
 
@@ -119,57 +111,38 @@ li {
 		font-family: "Roboto", "regular";
 		text-align: center;
 	}
-    
-	.thumbnail img{
-		min-height: 100px;
-		width: 100%;
-	}
-    
-    #android{
-        max-width: 100px;
-        transform: translate(-110%);
-    }
 
-    #apple{
-        max-width: 100px;
-        transform: translate(0%);
-    }
-    
-	#footer{
-		padding: 1% 0px 0px 0px;
-	}
 	#footer h1{
 		text-align: center;
 	}
+    
+    #lista{
+        margin-top: 5%;
+        padding: 2px 0;
+        text-align: center;
+    }
+    
 	#iconos{
 		margin: 0;
 		padding: 0;
-		overflow: hidden;
 		background-color: #db9600;
 	}
 	#iconos li{
-		float: right;
-		transform: translate(-50%);
-		max-width: 25%;
-	}	
-	#iconos li a {
-		text-align: center;
-		text-decoration: none;
-	}
+        padding: 0px;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
     
     #icono img{
-        margin-top: 5%;
-        margin-bottom: 5%;
-        width: 75px;
+        width: 10%;
         margin-left: auto;
         margin-right: auto;
     }
     #marcas{
         text-align: center;
-        margin-top: -5.3333333%;
-        padding-top: 0;
+        margin-top: 0;
     }
         #marcas img{
-        max-width: 15.76666666%;
+        max-width: 30%;
     }
 }
