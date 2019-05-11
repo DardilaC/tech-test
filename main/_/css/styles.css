@@ -1,71 +1,64 @@
-/*Navigation Menu*/
-.navbar-default{
-    display: block;
-}
-/*
-.filler{
-    flex-grow: 2;
-}
-*/
-.navbar-nav > li {
-	float: none;
-	vertical-align: middle;
-}
-#site-logo {
-	position: relative;
-	vertical-align: middle;
-	bottom: -18px;
-}
-#site-logo a {
-    margin-left: auto;
-    margin-right: auto;
-	margin-top: -35px;
-}
-li {
-	list-style-type: none;
-}
-.nav.navbar-nav{
-	display: inline-flex;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-.nav {
-	text-align: center;
-}
-.hidden-xs .img-responsive{
-    margin-left: auto;
-    margin-right: auto;
+.navbar{
+    background-color: #ffffff;
+    padding-bottom: 15px;
 }
 
-.nav li {
-	width: 20%;
-	height: 50px;
+.navbar-brand-centered {
+    top: 5%;
+    position: absolute;
+    left: 49%;
+    display: block;
+    width: 160px;
+    height: auto;
+    text-align: center;
+    background-color: transparent;
 }
-.nav a {
-	color: #000000;
-	text-decoration: none;
-	font-family: "Roboto", "regular";
-	font-size: 12px;
+
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -65px;
+}
+.navbar-nav li{
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar h4{
+    color: #db9600;
+    font-family: "Montserrat";
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+/*This is for the sticky navbar*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 
 /*Footer*/
 #footer{
-	margin-top: 5%;
+	margin-top: 10%;
 	overflow: hidden;
 	background-color: #db9600;
 }
+
 #lista{
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
+
 #lista h4{
-	color: #000000;
-	font-family: "Roboto", "regular";
+	color: #ffffff;
+	font-family: "Montserrat";
 	font-weight: bold;
 	display: block;
     font-size: 1.5em;
 }
+
 #footer .container{
 	width: 100%;
 }
@@ -98,17 +91,39 @@ li {
 
 
 @media (max-width: 767px){
-    .navbar-nav li a {
-		line-height: 30px;
-	}
-	.nav li{
-		width: 100%;
-	}
+    .navbar-brand-centered {
+        top: 0;
+        width: auto;
+        height: 50px;
+        left: 50%;
+    }
+    
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-top: -16px;
+        margin-left: -65px;
+    }
+    
+    .navbar h4{
+        color: #db9600;
+        font-family: "Montserrat";
+        text-align: center;
+        font-weight: 600;
+        font-size: 1em;
+    }
+    
+    .navbar{
+        overflow: hidden;
+        background-color: white;
+    }
+    
+    .navbar-nav li{
+        margin-top: 0px;
+
+    }
 	.nav a {
-		color: #000000;
-		background-color: #db9600;
 		text-decoration: none;
-		font-family: "Roboto", "regular";
+		font-family: "Montserrat";
 		text-align: center;
 	}
 

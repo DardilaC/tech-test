@@ -4,7 +4,7 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width">
     
-    <title>Food Now - Meet the team</title>
+    <title>Food Now - The Team</title>
     <meta name="description" content=""/>
     
     <link rel="stylesheet" href="_/css/bootstrap.css"/>
@@ -13,37 +13,37 @@
     <link rel="icon" type="image/png" href="_/images/icon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700|Roboto:100,300,400" rel="stylesheet">
 </head>
+    
 <body>
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-default">
-                <div class="container hidden-sm hidden-md hidden-lg">            
-                    <a href="index.html"><img id="logo-navbar-middle" src="_/images/logo2.png" class="img-responsive" alt="Home"></a>
-                </div>
-                <div class="filler"></div>
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <!-- menu section -->
-                    <div id="navbar" class="collapse navbar-collapse">
-                        <ul class="nav nav-justified navbar-nav center-block linksNavBar">
-                            <li><a href="registro.html">REGISTRO</a></li>
-                            <li><a href="contacto.html">CONTACTO</a></li>
-                            <li id="site-logo" class="hidden-xs"><a href="index.html"><img id="logo-navbar-middle" src="_/images/logo2.png" class="img-responsive" alt="Home" style='width:100;'></a></li>
-                            <li><a href="soporte.html">SOPORTE</a></li>
-                            <li><a href="acerca-de.html">ACERCA DE</a></li>
-                        </ul>
+    <section id="navbar">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <div class="navbar-brand navbar-brand-centered">
+                        <a href="index.html"><img id="logo-navbar-middle" src="_/images/logo2.png" alt="Home"></a>
                     </div>
                 </div>
-            </nav>
-        </div>
-    </header>
+                
+                <div class="collapse navbar-collapse" id="navbar-brand-centered">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#"><h4>Services</h4></a></li>
+                        <li><a href="#"><h4>News</h4></a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><h4>The Team</h4></a></li>
+                        <li><a href="#"><h4>Join us</h4></a></li>		        
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </section>
     
     <section id="footer">
         <div class="container">
@@ -70,8 +70,13 @@
             </div>
         </div>
     </section>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.js"></script>
+    
+    
+    <!--This is to keep the navbar stuck in the top side of the page.-->
+    <script src="_/js/sticky.js"></script>
+    
     <script src="_/js/jquery.min.js"></script>
+    <script src="_/js/bootstrap.min.js"></script>
     <script src="_/js/bootstrap.js"></script>
 </body>
 </html>
