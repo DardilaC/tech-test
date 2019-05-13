@@ -75,16 +75,6 @@
     -webkit-transform: rotate(45deg);  /* Safari and Chrome */
 }
 
-.member span.name{
-    font-size: 22px;
-    line-height: 28px;
-    min-height: 62px;
-    display: block;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 /*Footer*/
 #footer{
 	margin-top: 10%;
@@ -178,20 +168,29 @@
     /*Body*/
     #body h1{
         padding-top: 20%;
-        margin-bottom: -8%;
+        margin-bottom: 10%;
         color: #000000;
         font-family: "Montserrat";
         font-weight: 400;
         text-align: center;
     }
     
+    
+    /*This is to make the diamonds bigger in smaller screens*/
+    .member .avatar .avatar-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+        
     .member{
         display: flex;
         justify-content: center;
     }
     
+    /*This puts the diamonds closer to each other*/
     .member .avatar .avatar-image{
-        margin-top: 60px;
+        margin-top: -20px;
     }
     
     
