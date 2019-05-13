@@ -1,3 +1,4 @@
+/*Navigation Bar*/
 .navbar{
     background-color: #ffffff;
     padding-bottom: 15px;
@@ -34,10 +35,45 @@
 /*This is for the sticky navbar*/
 .sticky {
     position: fixed;
+    z-index: 1;
     top: 0;
     width: 100%;
 }
 
+
+/*Body*/
+#body h1{
+    padding-top: 20%;
+    padding-bottom: 10%;
+    color: #000000;
+	font-family: "Montserrat";
+	font-weight: 400;
+    text-align: center;
+}
+
+.member{
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-image img{
+    width: 150%;
+    left: -25%;
+    top: -25%;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Safari and Chrome */
+    position: absolute;
+}
+.member .avatar .avatar-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    overflow: hidden;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg);  /* Safari and Chrome */
+}
 
 /*Footer*/
 #footer{
@@ -91,6 +127,7 @@
 
 
 @media (max-width: 767px){
+    /*Navbar*/
     .navbar-brand-centered {
         top: 0;
         width: auto;
@@ -126,11 +163,41 @@
 		font-family: "Montserrat";
 		text-align: center;
 	}
-
+    
+    
+    /*Body*/
+    #body h1{
+        padding-top: 20%;
+        margin-bottom: 10%;
+        color: #000000;
+        font-family: "Montserrat";
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    
+    /*This is to make the diamonds bigger in smaller screens*/
+    .member .avatar .avatar-image{
+        width: 100px;
+        height: 100px;
+        border-radius: 10px;
+    }
+        
+    .member{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*This puts the diamonds closer to each other*/
+    .member .avatar .avatar-image{
+        margin-top: -20px;
+    }
+    
+    
+    /*Footer*/
 	#footer h1{
 		text-align: center;
 	}
-    
     
     #lista{
         margin-top: 0;
