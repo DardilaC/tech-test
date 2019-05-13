@@ -1,6 +1,6 @@
 /*Navigation Bar*/
 .navbar{
-    background-color: #ffffff;
+    background-color: #000000;
     padding-bottom: 15px;
 }
 
@@ -79,7 +79,7 @@
 #footer{
 	margin-top: 10%;
 	overflow: hidden;
-	background-color: #db9600;
+	background-color: #000000;
 }
 
 #lista{
@@ -108,6 +108,9 @@
 }
 
 #icono img{
+    background-color: #db6900;
+    overflow: hidden;
+    border-radius: 100px;
     margin-top: 30px;
 }
 
@@ -151,7 +154,6 @@
     
     .navbar{
         overflow: hidden;
-        background-color: white;
     }
     
     .navbar-nav li{
@@ -200,7 +202,7 @@
 	}
     
     #lista{
-        margin-top: 0;
+        margin-top: 10;
         padding: 2px 0px;
         text-align: center;
         font-size: 0.75em;
@@ -208,6 +210,7 @@
 	
     #icono img{
         max-width: 100px;
+        margin-top: -10px;
         margin-left: auto;
         margin-right: auto;
     }
